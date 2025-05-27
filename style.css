@@ -9,6 +9,10 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: #111;
+
+}
+body{
+        overflow-x: hidden;
 }
 #nav{
     /* background-color: red; */
@@ -82,4 +86,31 @@ align-items: center;
     /* margin-top: 2rem; */
     display: inline-block;
     padding: 20px;
+}
+
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(59, 55, 55);
+}
+
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(69, 134, 134);
+    padding:20px 30px;
+}
+
+#page2 h1{
+    /* transform: translateX(-100%); */
+    font-size: 35vw;
+
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(147, 114, 212);
 }
